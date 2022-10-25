@@ -135,6 +135,10 @@ header nav ul li a:hover {
 
 
 @media (max-width:768px) {
+    .content .container {
+        grid-template-rows: auto;
+    }
+
     .content .container .top {
         grid-template-columns: 1fr;
     }
