@@ -251,6 +251,7 @@ header nav ul li a:hover {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     align-content: space-around;
     gap: 20px;
+    padding: 20px 0;
 }
 
 .content .bottom-articles .article {
