@@ -81,8 +81,8 @@ header nav ul li a:hover {
         flex-direction: column;
         top: 0;
         height: 100vh;
-        width: 66vw;
-        right: -66vw;
+        width: 80vw;
+        right: -80vw;
         transition: 0.3s;
         padding-left: 10px;
     }
@@ -114,8 +114,8 @@ header nav ul li a:hover {
     }
 
     header nav .close-menu {
-        width: 50px;
-        margin: 50px 30px 180px;
+        width: 40px;
+        margin: 18px 15px 180px;
         align-self: flex-end;
     }
 }
@@ -195,6 +195,10 @@ header nav ul li a:hover {
 }
 
 @media (max-width:768px) {
+    .content .main-article .image {
+        background-image: url(assets/images/image-web-3-mobile.jpg);
+    }
+
     .content .top .main-article {
         min-height: calc(100vh - 81px);
     }
