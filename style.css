@@ -95,7 +95,7 @@ header nav ul li a:hover {
         top: 0;
         right: -100%;
         transition: background-color 0.3s;
-        z-index: -1;
+        z-index: 0;
     }
 
     header nav .ham-menu:hover~ul {
